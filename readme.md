@@ -1,4 +1,4 @@
-lambda function code: lambda_function.js
+lambda function code: `lambda_function.js`
 
 lambda url: https://ivhhr4zky7nc72i6eebo7nspbe0zcawb.lambda-url.us-east-1.on.aws/
 
@@ -13,3 +13,5 @@ Partition key: user_id (String)
 Sort key: timestamp (Number)
 
 index: user_id-index
+
+additional columns: role: `'assistant' / 'user'`, content: aiReply
