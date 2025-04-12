@@ -1,0 +1,12 @@
+I created a folder named "nodejs-openai-layer" in the root directory of my project.
+In this folder I created a package.json file with the following dependencies:
+"@aws-sdk/client-dynamodb": "^3.787.0",
+"@aws-sdk/lib-dynamodb": "^3.787.0",
+"openai": "^4.93.0",
+"uuid": "^11.1.0"
+
+Then I ran `npm i` to install the dependencies.
+Then moved the node_modules folder to another folder named nodejs.
+Then I zipped the nodejs folder and uploaded it to AWS Lambda as a layer.
+To upload the layer on AWS I created a new layer and later on use the ARN of the layer in my Lambda function.
+
